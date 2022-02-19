@@ -1,24 +1,37 @@
-<!DOCTYPE html>
 <html lang="en">
-    <meta charset="UTF-8">
 <head>
-    <title>Slot per il Meme</title>
+    <title>Slots</title>
     <link rel="stylesheet" href="style.css">
-    <script src="code.js"></script>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 </head>
 <body>
-    <div class="container">
-        <table>
-            <tr>
-                <td> <div id="image1" class="showImage"></div> </td>
-                <td> <div id="image2" class="showImage"></div></td>
-                <td> <div id="image3" class="showImage"></div></td>
-            </tr>
-        </table>
-        <div>
-            <button id="startBtn" class="btn" onclick="randomImageSlot()">PLAY</button>
+    <div id="container">
+        <div id="slotContainer">
+            <table id="tabella">
+                <tr>
+                    <td><div id="imageUp1"></div></td>
+                    <td><div id="imageUp2"></div></td>
+                    <td><div id="imageUp3"></div></td>
+                </tr>
+                <tr id="rigaSlot">
+                    <td><div id="imageSlot1"></div></td>
+                    <td><div id="imageSlot2"></div></td>
+                    <td><div id="imageSlot3"></div></td>
+                </tr>
+                <tr>
+                    <td><div id="imageDown1"></div></td>
+                    <td><div id="imageDown2"></div></td>
+                    <td><div id="imageDown3"></div></td>
+                </tr>
+            </table>            
+        </div>
+
+        <div id="pop-up">
+            testo
         </div>
         
+        <a onclick="play()" class="btn">Play</a>
     </div>
+    <script src="code.js"></script>
 </body>
 </html>
