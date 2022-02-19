@@ -8,7 +8,7 @@ for(let i = 1; i <= 3; i++){
     document.getElementById("imageSlot"+i).innerHTML = slotsImage[Math.floor(Math.random()*5)];
 }
 
-async function play(){
+async function iniziaPartita(){
     document.getElementById('pop-up').style.display = 'none';
     changeSlotImage(document.getElementById("imageUp1"));
     changeSlotImage(document.getElementById("imageUp2"));
