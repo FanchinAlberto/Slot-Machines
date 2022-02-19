@@ -1,0 +1,28 @@
+.container
+{
+    background-color: darksalmon;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 800px;
+    text-align: center;
+}
+.showImage
+{
+    margin-top: 50px;
+    background-color: indianred;
+    width: 262px;
+    height: 262px;
+    border-radius: 50%;
+}
+.btn
+{
+    background-color: darksalmon;
+    margin-top: 40px;
+    width: 100px;
+    height: 50px;
+    border-style: groove;
+    border: 10ps solid black;
+    border-radius: 7px;
+}
